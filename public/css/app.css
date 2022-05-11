@@ -11286,17 +11286,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+  margin-bottom: 0;
+}
+
 h1, .h1 {
   font-size: 2rem;
   line-height: 130%;
   font-weight: 700;
-  margin-bottom: 0;
 }
 
 h5, .h5 {
   font-size: 1rem;
   line-height: 1.25rem;
-  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -11350,6 +11352,37 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   }
   .hero h1, .hero .h1 {
     margin-bottom: 3.125rem;
+  }
+}
+
+.counter {
+  margin-top: 2.5rem;
+}
+.counter h3, .counter .h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.counter h3 span, .counter .h3 span {
+  font-size: 0.875rem;
+}
+.counter .days {
+  margin-right: 3.125rem;
+}
+.counter .days h3, .counter .days .h3,
+.counter .days span {
+  color: #C8102E;
+}
+.counter .hours > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .counter {
+    margin-top: 3.375rem;
+  }
+  .counter .days {
+    margin-right: 5.5rem;
   }
 }
 

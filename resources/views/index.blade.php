@@ -3,4 +3,5 @@
 @section('content')
     <Navigation></Navigation>
     <Hero></Hero>
+    <Counter></Counter>
 @endsection

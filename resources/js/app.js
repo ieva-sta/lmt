@@ -21,6 +21,7 @@ window.Vue = require('vue').default;
 
 Vue.component('Navigation', require('./components/Navigation.vue').default);
 Vue.component('Hero', require('./components/Hero.vue').default);
+Vue.component('Counter', require('./components/Counter.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
