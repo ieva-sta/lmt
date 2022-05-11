@@ -27851,81 +27851,104 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("nav", { staticClass: "navbar navbar-expand-lg navbar-dark" }, [
-      _c("div", { staticClass: "container-fluid" }, [
-        _c("div", { staticClass: "d-flex w-100 justify-content-between" }, [
-          _c(
-            "button",
-            {
-              staticClass: "navbar-toggler",
-              attrs: {
-                type: "button",
-                "data-bs-toggle": "collapse",
-                "data-bs-target": "#navigation",
-                "aria-controls": "navigation",
-                "aria-expanded": "false",
-                "aria-label": "Toggle navigation",
-              },
-            },
-            [
-              _c("img", {
+    return _c(
+      "nav",
+      { staticClass: "navbar navbar-expand-lg navbar-dark py-3 px-1" },
+      [
+        _c("div", { staticClass: "container-fluid container-md" }, [
+          _c("div", { staticClass: "d-flex w-100 justify-content-between" }, [
+            _c(
+              "button",
+              {
+                staticClass: "navbar-toggler",
                 attrs: {
-                  src: "images/icons/navbar-toggler.svg",
-                  alt: "Navigācija",
+                  type: "button",
+                  "data-bs-toggle": "collapse",
+                  "data-bs-target": "#navigation",
+                  "aria-controls": "navigation",
+                  "aria-expanded": "false",
+                  "aria-label": "Toggle navigation",
+                },
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src: "images/icons/navbar-toggler.svg",
+                    alt: "Navigācija",
+                  },
+                }),
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "d-flex align-items-center" }, [
+              _c("img", { attrs: { src: "images/logo.svg", alt: "LMT logo" } }),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "d-md-none d-flex align-items-center" }, [
+              _c("img", {
+                staticClass: "account-icon",
+                attrs: {
+                  src: "images/icons/account.svg",
+                  alt: "Ikona - mants konts",
                 },
               }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "collapse navbar-collapse",
+              attrs: { id: "navigation" },
+            },
+            [
+              _c("ul", { staticClass: "navbar-nav me-auto mb-2 mb-lg-0" }, [
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { "aria-current": "page", href: "#" },
+                    },
+                    [
+                      _c("img", {
+                        attrs: {
+                          src: "images/icons/search.svg",
+                          alt: "Meklēt",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Meklēt")]),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                    _c("img", {
+                      attrs: { src: "images/icons/book.svg", alt: "Meklēt" },
+                    }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Palīdzība")]),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                    _c("img", {
+                      staticClass: "account-icon",
+                      attrs: { src: "images/icons/account.svg", alt: "Meklēt" },
+                    }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Autorizēties")]),
+                  ]),
+                ]),
+              ]),
             ]
           ),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", { attrs: { src: "images/logo.svg", alt: "LMT logo" } }),
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", {
-              attrs: {
-                src: "images/icons/account.svg",
-                alt: "Ikona - mants konts",
-              },
-            }),
-          ]),
         ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "collapse navbar-collapse",
-            attrs: { id: "navigation" },
-          },
-          [
-            _c("ul", { staticClass: "navbar-nav me-auto mb-2 mb-lg-0" }, [
-              _c("li", { staticClass: "nav-item" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "nav-link active",
-                    attrs: { "aria-current": "page", href: "#" },
-                  },
-                  [_vm._v("Home")]
-                ),
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "nav-item" }, [
-                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                  _vm._v("Link"),
-                ]),
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "nav-item" }, [
-                _c("a", { staticClass: "nav-link disabled" }, [
-                  _vm._v("Disabled"),
-                ]),
-              ]),
-            ]),
-          ]
-        ),
-      ]),
-    ])
+      ]
+    )
   },
 ]
 render._withStripped = true

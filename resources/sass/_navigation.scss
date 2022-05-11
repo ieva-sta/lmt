@@ -1,0 +1,30 @@
+nav.navbar {
+    .account-icon {
+        height: 28px;
+    }
+
+    @include media-breakpoint-up(md) {
+        .account-icon {
+            height: 20px;
+        }
+    }
+
+    .navbar-collapse .nav-item {
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+
+        .nav-link {
+            display: flex;
+            align-items: center;
+            color: $light-grey;
+            font-size: .875rem;
+
+            img {
+                margin-right: .5rem;
+            }
+        }
+    }
+}
+
+
