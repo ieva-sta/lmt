@@ -1,11 +1,11 @@
 nav.navbar {
     .account-icon {
-        height: 28px;
+        height: 1.75rem;
     }
 
     @include media-breakpoint-up(md) {
         .account-icon {
-            height: 20px;
+            height: 1.25rem;
         }
     }
 

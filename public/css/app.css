@@ -11286,12 +11286,35 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1 {
+  font-size: 2rem;
+  line-height: 130%;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 3rem;
+  }
+
+  h5, .h5 {
+    font-size: 1.5rem;
+    line-height: 130%;
+  }
+}
 nav.navbar .account-icon {
-  height: 28px;
+  height: 1.75rem;
 }
 @media (min-width: 768px) {
   nav.navbar .account-icon {
-    height: 20px;
+    height: 1.25rem;
   }
 }
 nav.navbar .navbar-collapse .nav-item:not(:last-child) {
@@ -11307,6 +11330,30 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   margin-right: 0.5rem;
 }
 
+.hero {
+  background: url("/images/banner-mobile.png") no-repeat center top;
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+}
+.hero h1, .hero .h1 {
+  margin-bottom: 1.75rem;
+}
+@media (min-width: 768px) {
+  .hero {
+    background: url("/images/banner-desktop.png") no-repeat center top;
+    min-height: unset;
+    height: 25rem;
+    align-items: center;
+  }
+  .hero h1, .hero .h1 {
+    margin-bottom: 3.125rem;
+  }
+}
+
 body {
   background: #000;
+  color: #fff;
 }

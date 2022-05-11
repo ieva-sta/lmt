@@ -1,0 +1,23 @@
+.hero {
+    background: url('/images/banner-mobile.png') no-repeat center top;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+
+    h1 {
+        margin-bottom: 1.75rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        background: url('/images/banner-desktop.png') no-repeat center top;
+        min-height: unset;
+        height: 25rem;
+        align-items: center;
+
+        h1 {
+            margin-bottom: 3.125rem;
+        }
+    }
+}

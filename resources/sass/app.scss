@@ -7,8 +7,11 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+@import 'typography';
 @import 'navigation';
+@import 'hero';
 
 body {
     background: $black;
+    color: $white;
 }
