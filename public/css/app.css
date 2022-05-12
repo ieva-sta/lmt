@@ -11296,6 +11296,11 @@ h1, .h1 {
   font-weight: 700;
 }
 
+h4, .h4 {
+  font-size: 1.125rem;
+  line-height: 100%;
+}
+
 h5, .h5 {
   font-size: 1rem;
   line-height: 1.25rem;
@@ -11356,7 +11361,7 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
 }
 
 .counter {
-  margin-top: 2.5rem;
+  margin: 2.5rem auto 2.625rem;
 }
 .counter h3, .counter .h3 {
   font-weight: 700;
@@ -11384,6 +11389,48 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   .counter .days {
     margin-right: 5.5rem;
   }
+}
+
+.device-list {
+  margin-bottom: 4.25rem;
+}
+.device-list .device-container:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+@media (min-width: 768px) {
+  .device-list .device-container:not(:last-child) {
+    margin-bottom: 1.875rem;
+  }
+}
+.device-list .device {
+  padding: 1.375rem 0;
+  border: 1px solid #2D2D2D;
+  border-radius: 0.3125rem;
+  transition: background 0.15s;
+  height: 5rem;
+}
+.device-list .device:hover {
+  background: #2D2D2D;
+  cursor: pointer;
+}
+.device-list .device h4, .device-list .device .h4 {
+  color: #F6F6F6;
+}
+.device-list .device.see-more {
+  background: #EA1336;
+  transition: background 0.15s;
+}
+.device-list .device.see-more img {
+  transition: transform 0.3s ease;
+}
+.device-list .device.see-more:hover {
+  background: #C8102E;
+}
+.device-list .device.see-more:hover img {
+  transform: translateX(10px);
+}
+.device-list .device.see-more h4, .device-list .device.see-more .h4 {
+  margin-right: 2rem;
 }
 
 body {
