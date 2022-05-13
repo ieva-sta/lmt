@@ -5,4 +5,5 @@
     <Hero></Hero>
     <Counter></Counter>
     <device-list></device-list>
+    <Offer></Offer>
 @endsection

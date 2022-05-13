@@ -12,8 +12,17 @@
 @import 'hero';
 @import 'counter';
 @import 'device-list';
+@import 'offer';
 
 body {
     background: $black;
     color: $white;
+}
+
+.btn {
+    border-radius: .3125rem;
+}
+
+.container {
+    max-width: 71.25rem;
 }

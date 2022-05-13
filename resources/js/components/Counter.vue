@@ -1,7 +1,7 @@
 <template>
     <div class="counter container-fluid container px-3">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-4 d-flex justify-content-between">
+            <div class="col-12 col-md-5 d-flex justify-content-between">
                 <div class="days">
                     <h3>20</h3>
                     <span>dienas</span>
