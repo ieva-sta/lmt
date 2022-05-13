@@ -11355,7 +11355,7 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   align-items: flex-end;
   padding-bottom: 3rem;
 }
-.hero h1, .hero .h1 {
+.hero h2, .hero .h2 {
   margin-bottom: 1.75rem;
 }
 @media (min-width: 768px) {
@@ -11364,8 +11364,13 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
     min-height: unset;
     height: 25rem;
     align-items: center;
+    padding-bottom: 0;
   }
-  .hero h1, .hero .h1 {
+  .hero.container-md {
+    width: 1440px;
+    max-width: 1440px;
+  }
+  .hero h2, .hero .h2 {
     margin-bottom: 3.125rem;
   }
 }

@@ -6,7 +6,7 @@
     align-items: flex-end;
     padding-bottom: 3rem;
 
-    h1 {
+    h2 {
         margin-bottom: 1.75rem;
     }
 
@@ -15,8 +15,14 @@
         min-height: unset;
         height: 25rem;
         align-items: center;
+        padding-bottom: 0;
 
-        h1 {
+        &.container-md {
+            width: 1440px;
+            max-width: 1440px;
+        }
+
+        h2 {
             margin-bottom: 3.125rem;
         }
     }

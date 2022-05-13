@@ -28732,16 +28732,18 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hero container-fluid container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [
-          _c("h2", [
-            _vm._v("Melnā piektdiena "),
-            _c("br"),
-            _vm._v(" tikai 27. novembrī"),
+    return _c("div", { staticClass: "hero " }, [
+      _c("div", { staticClass: "container-fluid container-md" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("h2", [
+              _vm._v("Melnā piektdiena "),
+              _c("br"),
+              _vm._v(" tikai 27. novembrī"),
+            ]),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Kur skaties – tur atlaides!")]),
           ]),
-          _vm._v(" "),
-          _c("h5", [_vm._v("Kur skaties – tur atlaides!")]),
         ]),
       ]),
     ])
@@ -28806,7 +28808,11 @@ var staticRenderFns = [
             ),
             _vm._v(" "),
             _c("div", { staticClass: "d-flex align-items-center" }, [
-              _c("img", { attrs: { src: "images/logo.svg", alt: "LMT logo" } }),
+              _c("a", { attrs: { href: "/" } }, [
+                _c("img", {
+                  attrs: { src: "images/logo.svg", alt: "LMT logo" },
+                }),
+              ]),
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "d-md-none d-flex align-items-center" }, [

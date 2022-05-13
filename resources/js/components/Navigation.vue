@@ -6,7 +6,9 @@
                     <img src="images/icons/navbar-toggler.svg" alt="Navigācija">
                 </button>
                 <div class="d-flex align-items-center">
-                    <img src="images/logo.svg" alt="LMT logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="LMT logo">
+                    </a>
                 </div>
                 <div class="d-md-none d-flex align-items-center">
                     <img src="images/icons/account.svg" class="account-icon" alt="Ikona - mants konts">
