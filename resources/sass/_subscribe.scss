@@ -38,6 +38,8 @@
 
 @include media-breakpoint-up(md) {
     .subscribe {
+        padding: 4.375rem 0 10.25rem;
+
         .form-control {
             &#name,
             &#email {

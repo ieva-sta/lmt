@@ -1,0 +1,12 @@
+.footer {
+    padding: 1.25rem 0 1.1875rem;
+
+    small {
+        color: #4E4E4E;
+    }
+
+
+    @include media-breakpoint-up(md) {
+        padding: 3.0625rem;
+    }
+}

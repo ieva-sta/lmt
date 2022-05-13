@@ -7,4 +7,5 @@
     <device-list></device-list>
     <Offer></Offer>
     <Subscribe></Subscribe>
+    <custom-footer></custom-footer>
 @endsection
