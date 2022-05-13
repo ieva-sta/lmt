@@ -6,4 +6,5 @@
     <Counter></Counter>
     <device-list></device-list>
     <Offer></Offer>
+    <Subscribe></Subscribe>
 @endsection

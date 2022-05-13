@@ -24,6 +24,7 @@ Vue.component('Hero', require('./components/Hero.vue').default);
 Vue.component('Counter', require('./components/Counter.vue').default);
 Vue.component('DeviceList', require('./components/DeviceList.vue').default);
 Vue.component('Offer', require('./components/Offer.vue').default);
+Vue.component('Subscribe', require('./components/Subscribe.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

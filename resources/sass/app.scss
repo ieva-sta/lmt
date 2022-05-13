@@ -13,6 +13,7 @@
 @import 'counter';
 @import 'device-list';
 @import 'offer';
+@import 'subscribe';
 
 body {
     background: $black;
@@ -23,6 +24,8 @@ body {
     border-radius: .3125rem;
 }
 
-.container {
+.container,
+.container-md,
+.container-lg {
     max-width: 71.25rem;
 }

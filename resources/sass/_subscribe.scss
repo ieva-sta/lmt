@@ -1,0 +1,52 @@
+.subscribe {
+    padding: 2.5rem 1rem 4.8125rem;
+
+    h2 {
+        color: $dark-grey;
+        margin-bottom: 2.4375rem;
+    }
+
+    label,
+    input::placeholder {
+        color: #4E4E4E;
+    }
+
+    label {
+        font-size: .875rem;
+    }
+
+    .form-control {
+        background-color: $light-grey;
+        border-radius: .3125rem;
+        height: 3.5rem;
+        border: 1px solid $medium-grey;
+
+        &#name {
+            margin-bottom: 1.8125rem;
+        }
+
+        &#email {
+            margin-bottom: 2.5625rem;
+        }
+    }
+
+    .btn {
+        height: 3.5rem;
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .subscribe {
+        .form-control {
+            &#name,
+            &#email {
+                margin-bottom: 0;
+            }
+        }
+
+        .btn {
+            width: auto;
+        }
+    }
+}

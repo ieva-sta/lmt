@@ -11317,6 +11317,10 @@ h5, .h5 {
     font-size: 3rem;
   }
 
+  h2, .h2 {
+    font-size: 2.25rem;
+  }
+
   h5, .h5 {
     font-size: 1.5rem;
     line-height: 130%;
@@ -11511,6 +11515,51 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
     margin-bottom: 0;
   }
 }
+.subscribe {
+  padding: 2.5rem 1rem 4.8125rem;
+}
+.subscribe h2, .subscribe .h2 {
+  color: #2D2D2D;
+  margin-bottom: 2.4375rem;
+}
+.subscribe input::-moz-placeholder {
+  color: #4E4E4E;
+}
+.subscribe input:-ms-input-placeholder {
+  color: #4E4E4E;
+}
+.subscribe label,
+.subscribe input::placeholder {
+  color: #4E4E4E;
+}
+.subscribe label {
+  font-size: 0.875rem;
+}
+.subscribe .form-control {
+  background-color: #F6F6F6;
+  border-radius: 0.3125rem;
+  height: 3.5rem;
+  border: 1px solid #E8E8E8;
+}
+.subscribe .form-control#name {
+  margin-bottom: 1.8125rem;
+}
+.subscribe .form-control#email {
+  margin-bottom: 2.5625rem;
+}
+.subscribe .btn {
+  height: 3.5rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .subscribe .form-control#name, .subscribe .form-control#email {
+    margin-bottom: 0;
+  }
+  .subscribe .btn {
+    width: auto;
+  }
+}
 body {
   background: #000;
   color: #fff;
@@ -11520,6 +11569,8 @@ body {
   border-radius: 0.3125rem;
 }
 
-.container {
+.container,
+.container-md,
+.container-lg {
   max-width: 71.25rem;
 }
