@@ -37,7 +37,7 @@ class SubscriptionController extends Controller
         Cache::forever('subscriptions', $subscriptions);
 
         return response()->json([
-            'message' => 'Paldies! Tu esi reģistrēts konkuram.'
+            'message' => 'Paldies! Tu esi reģistrēts konkursam.'
         ]);
     }
 }
