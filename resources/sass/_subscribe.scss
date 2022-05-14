@@ -48,6 +48,17 @@
     }
 }
 
+@include media-breakpoint-up(sm) {
+    .subscribe .form-control {
+        &#name,
+        &#email {
+            + div .error {
+                bottom: .75rem;
+            }
+        }
+    }
+}
+
 @include media-breakpoint-up(md) {
     .subscribe {
         padding: 4.375rem 0 10.25rem;
@@ -56,6 +67,10 @@
             &#name,
             &#email {
                 margin-bottom: 0;
+
+                + div .error {
+                    bottom: unset;
+                }
             }
         }
 

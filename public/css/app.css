@@ -11603,12 +11603,20 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   margin-left: 0.6875rem;
 }
 
+@media (min-width: 576px) {
+  .subscribe .form-control#name + div .error, .subscribe .form-control#email + div .error {
+    bottom: 0.75rem;
+  }
+}
 @media (min-width: 768px) {
   .subscribe {
     padding: 4.375rem 0 10.25rem;
   }
   .subscribe .form-control#name, .subscribe .form-control#email {
     margin-bottom: 0;
+  }
+  .subscribe .form-control#name + div .error, .subscribe .form-control#email + div .error {
+    bottom: unset;
   }
   .subscribe .btn {
     width: auto;
