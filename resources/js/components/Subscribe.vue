@@ -5,7 +5,7 @@
             <form class="row flex-column flex-md-row align-items-md-end">
                 <div class="col-12 col-md-4">
                     <label for="name" class="form-label">Vārds, uzvārds</label>
-                    <input v-model="form.name" type="text" class="form-control" :class="errors && errors.name ? 'has-error' : null" id="name" placeholder="Jānis Bērziņš">
+                    <input v-model="form.name" @keyup="resetError('name')" type="text" class="form-control" :class="errors && errors.name ? 'has-error' : null" id="name" placeholder="Jānis Bērziņš">
                     <div v-if="errors">
                         <div v-for="error in errors.name" class="error">
                             {{ error}}
@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <label for="email" class="form-label">E-pasta adrese</label>
-                    <input v-model="form.email" type="email" class="form-control" :class="errors && errors.email ? 'has-error' : null" id="email" placeholder="janis.berzins@gmail.com">
+                    <input v-model="form.email" @keyup="resetError('email')" type="email" class="form-control" :class="errors && errors.email ? 'has-error' : null" id="email" placeholder="janis.berzins@gmail.com">
                     <div v-if="errors">
                         <div v-for="error in errors.email" class="error">
                             {{ error}}
@@ -29,6 +29,9 @@
                     </button>
                 </div>
             </form>
+            <Transition name="fade">
+                <h5 v-if="message" class="mt-3 text-success position-absolute">{{ message }} </h5>
+            </Transition>
         </div>
     </div>
 </template>
@@ -42,7 +45,8 @@ export default {
                 name: '',
                 email: ''
             },
-            errors: null
+            errors: null,
+            message: null
         }
     },
     methods: {
@@ -50,11 +54,30 @@ export default {
             let self = this;
 
             axios.post('/api/subscribe', this.form).then(function (response) {
-                console.log(response);
+                self.message = response.data.message;
             }).catch(function (error) {
                 self.errors = error.response.data.errors;
             });
+        },
+        resetError(field) {
+            if (this.errors) {
+                this.errors[field] = null;
+            }
+
+            this.message = null;
         }
     }
 }
 </script>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+</style>

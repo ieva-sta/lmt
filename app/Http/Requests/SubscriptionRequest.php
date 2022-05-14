@@ -25,7 +25,7 @@ class SubscriptionRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required', 'min:1', 'max:255', new MaxWordCount(4)],
+            'name' => ['required','string', 'min:1', 'max:255', new MaxWordCount(4)],
             'email' => 'required|email'
         ];
     }

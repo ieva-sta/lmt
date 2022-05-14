@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/subscriptions', [SubscriptionController::class, 'index']);
 Route::post('/subscribe', [SubscriptionController::class, 'store']);

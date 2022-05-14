@@ -15,7 +15,7 @@ class MaxWordCount implements Rule
      */
     public function __construct($maxWords = 5)
     {
-        $this->$maxWords = $maxWords;
+        $this->maxWords = $maxWords;
     }
 
     /**
