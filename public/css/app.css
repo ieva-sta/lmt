@@ -11626,3 +11626,12 @@ body {
 .btn-with-icon:hover svg {
   transform: translateX(10px);
 }
+
+.form-control.has-error {
+  border-color: #C8102E;
+}
+
+.error {
+  position: absolute;
+  color: #C8102E;
+}
