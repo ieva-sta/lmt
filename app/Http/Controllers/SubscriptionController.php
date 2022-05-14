@@ -17,7 +17,7 @@ class SubscriptionController extends Controller
 
     public function store(SubscriptionRequest $request): JsonResponse
     {
-        $subscriptions = Cache::get('subscriptions');
+        $subscriptions = Cache::get('subscriptions') ?? [];
         $email = $request->get('email');
         $name = $request->get('email');
 
