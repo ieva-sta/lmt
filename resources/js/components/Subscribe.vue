@@ -55,6 +55,8 @@ export default {
 
             axios.post('/api/subscribe', this.form).then(function (response) {
                 self.message = response.data.message;
+                self.form.name = '';
+                self.form.email = '';
             }).catch(function (error) {
                 self.errors = error.response.data.errors;
             });
