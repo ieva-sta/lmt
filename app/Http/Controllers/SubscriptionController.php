@@ -18,8 +18,8 @@ class SubscriptionController extends Controller
     public function store(SubscriptionRequest $request): JsonResponse
     {
         $subscriptions = Cache::get('subscriptions') ?? [];
+        $name = $request->get('name');
         $email = $request->get('email');
-        $name = $request->get('email');
 
         if (in_array($email, array_column($subscriptions, 'email'))) {
             return response()->json([
@@ -28,8 +28,8 @@ class SubscriptionController extends Controller
         }
 
         $subscription = [
-            'name'  => $email,
-            'email' => $name
+            'name'  => $name,
+            'email' => $email
         ];
 
         $subscriptions[] = $subscription;
