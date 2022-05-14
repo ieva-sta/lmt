@@ -5455,71 +5455,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Offer.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Offer.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'Offer'
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Subscribe.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Subscribe.vue?vue&type=script&lang=js& ***!
@@ -28780,17 +28715,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Offer_vue_vue_type_template_id_463e0501___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Offer.vue?vue&type=template&id=463e0501& */ "./resources/js/components/Offer.vue?vue&type=template&id=463e0501&");
-/* harmony import */ var _Offer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Offer.vue?vue&type=script&lang=js& */ "./resources/js/components/Offer.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 ;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Offer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
   _Offer_vue_vue_type_template_id_463e0501___WEBPACK_IMPORTED_MODULE_0__.render,
   _Offer_vue_vue_type_template_id_463e0501___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
@@ -28893,22 +28826,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DeviceList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DeviceList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/DeviceList.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DeviceList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/Offer.vue?vue&type=script&lang=js&":
-/*!********************************************************************!*\
-  !*** ./resources/js/components/Offer.vue?vue&type=script&lang=js& ***!
-  \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Offer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Offer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Offer.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Offer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -29152,7 +29069,10 @@ var render = function () {
     _c("div", { staticClass: "row justify-content-center" }, [
       _c(
         "div",
-        { staticClass: "col-12 col-md-6 d-flex justify-content-between" },
+        {
+          staticClass:
+            "col-12 col-sm-8 col-md-6 d-flex justify-content-between",
+        },
         [
           _c("div", { staticClass: "days" }, [
             _c("h3", [_vm._v(_vm._s(_vm.days))]),
@@ -29237,7 +29157,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "footer",
-      { staticClass: "footer container-fluid container-md" },
+      { staticClass: "footer container-fluid container-md px-3 px-md-0" },
       [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12" }, [
@@ -29457,48 +29377,55 @@ var staticRenderFns = [
               attrs: { id: "navigation" },
             },
             [
-              _c("ul", { staticClass: "navbar-nav me-auto mb-2 mb-lg-0" }, [
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link",
-                      attrs: { "aria-current": "page", href: "#" },
-                    },
-                    [
+              _c(
+                "ul",
+                { staticClass: "navbar-nav me-auto mb-2 mb-lg-0 pt-4 pt-md-0" },
+                [
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { "aria-current": "page", href: "#" },
+                      },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src: "images/icons/search.svg",
+                            alt: "Meklēt",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("Meklēt")]),
+                      ]
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
                       _c("img", {
+                        attrs: { src: "images/icons/book.svg", alt: "Meklēt" },
+                      }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Palīdzība")]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                      _c("img", {
+                        staticClass: "account-icon",
                         attrs: {
-                          src: "images/icons/search.svg",
+                          src: "images/icons/account.svg",
                           alt: "Meklēt",
                         },
                       }),
                       _vm._v(" "),
-                      _c("span", [_vm._v("Meklēt")]),
-                    ]
-                  ),
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _c("img", {
-                      attrs: { src: "images/icons/book.svg", alt: "Meklēt" },
-                    }),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("Palīdzība")]),
+                      _c("span", [_vm._v("Autorizēties")]),
+                    ]),
                   ]),
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _c("img", {
-                      staticClass: "account-icon",
-                      attrs: { src: "images/icons/account.svg", alt: "Meklēt" },
-                    }),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("Autorizēties")]),
-                  ]),
-                ]),
-              ]),
+                ]
+              ),
             ]
           ),
         ]),
@@ -29535,7 +29462,7 @@ var render = function () {
       _c("div", { staticClass: "col" }, [
         _c(
           "div",
-          { staticClass: "offer-banner d-flex flex-column flex-md-row" },
+          { staticClass: "offer-banner d-flex flex-column flex-sm-row" },
           [
             _c("div", { staticClass: "offer-info" }, [
               _c("h3", { staticClass: "text-center" }, [
@@ -29635,27 +29562,27 @@ var staticRenderFns = [
       "div",
       {
         staticClass:
-          "movies d-flex w-100 align-items-center justify-content-md-end",
+          "movies d-flex w-100 align-items-center justify-content-md-end flex-sm-wrap",
       },
       [
         _c("img", {
           staticClass: "movie-poster img-fluid",
-          attrs: { src: "images/movies/1.png", alt: "" },
+          attrs: { src: "images/movies/1.png", alt: "HBO filma" },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "movie-poster img-fluid",
-          attrs: { src: "images/movies/2.png", alt: "" },
+          attrs: { src: "images/movies/2.png", alt: "HBO filma" },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "movie-poster img-fluid",
-          attrs: { src: "images/movies/3.png", alt: "" },
+          attrs: { src: "images/movies/3.png", alt: "HBO filma" },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "movie-poster img-fluid d-none d-md-block",
-          attrs: { src: "images/movies/4.png", alt: "" },
+          attrs: { src: "images/movies/4.png", alt: "HBO filma" },
         }),
       ]
     )
@@ -29692,136 +29619,153 @@ var render = function () {
         _vm._v(" "),
         _c(
           "form",
-          { staticClass: "row flex-column flex-md-row align-items-md-end" },
+          {
+            staticClass:
+              "row flex-column flex-sm-row align-items-md-end justify-content-center justify-content-md-start",
+          },
           [
-            _c("div", { staticClass: "col-12 col-md-4" }, [
-              _c(
-                "label",
-                { staticClass: "form-label", attrs: { for: "name" } },
-                [_vm._v("Vārds, uzvārds")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.form.name,
-                    expression: "form.name",
+            _c(
+              "div",
+              { staticClass: "col-12 col-sm-6 col-md-4 position-relative" },
+              [
+                _c(
+                  "label",
+                  { staticClass: "form-label", attrs: { for: "name" } },
+                  [_vm._v("Vārds, uzvārds")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.name,
+                      expression: "form.name",
+                    },
+                  ],
+                  staticClass: "form-control",
+                  class: _vm.errors && _vm.errors.name ? "has-error" : null,
+                  attrs: {
+                    type: "text",
+                    id: "name",
+                    placeholder: "Jānis Bērziņš",
                   },
-                ],
-                staticClass: "form-control",
-                class: _vm.errors && _vm.errors.name ? "has-error" : null,
-                attrs: {
-                  type: "text",
-                  id: "name",
-                  placeholder: "Jānis Bērziņš",
-                },
-                domProps: { value: _vm.form.name },
-                on: {
-                  keyup: function ($event) {
-                    return _vm.resetError("name")
-                  },
-                  input: function ($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.$set(_vm.form, "name", $event.target.value)
-                  },
-                },
-              }),
-              _vm._v(" "),
-              _vm.errors
-                ? _c(
-                    "div",
-                    _vm._l(_vm.errors.name, function (error) {
-                      return _c("div", { staticClass: "error" }, [
-                        _vm._v(
-                          "\n                        " +
-                            _vm._s(error) +
-                            "\n                    "
-                        ),
-                      ])
-                    }),
-                    0
-                  )
-                : _vm._e(),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 col-md-4" }, [
-              _c(
-                "label",
-                { staticClass: "form-label", attrs: { for: "email" } },
-                [_vm._v("E-pasta adrese")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.form.email,
-                    expression: "form.email",
-                  },
-                ],
-                staticClass: "form-control",
-                class: _vm.errors && _vm.errors.email ? "has-error" : null,
-                attrs: {
-                  type: "email",
-                  id: "email",
-                  placeholder: "janis.berzins@gmail.com",
-                },
-                domProps: { value: _vm.form.email },
-                on: {
-                  keyup: function ($event) {
-                    return _vm.resetError("email")
-                  },
-                  input: function ($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.$set(_vm.form, "email", $event.target.value)
-                  },
-                },
-              }),
-              _vm._v(" "),
-              _vm.errors
-                ? _c(
-                    "div",
-                    _vm._l(_vm.errors.email, function (error) {
-                      return _c("div", { staticClass: "error" }, [
-                        _vm._v(
-                          "\n                        " +
-                            _vm._s(error) +
-                            "\n                    "
-                        ),
-                      ])
-                    }),
-                    0
-                  )
-                : _vm._e(),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "cta-container col-12 col-md-2" }, [
-              _c(
-                "button",
-                {
-                  staticClass:
-                    "btn btn-primary btn-with-icon w-100 d-flex justify-content-center align-items-center",
+                  domProps: { value: _vm.form.name },
                   on: {
-                    click: function ($event) {
-                      $event.preventDefault()
-                      return _vm.subscribe.apply(null, arguments)
+                    keyup: function ($event) {
+                      return _vm.resetError("name")
+                    },
+                    input: function ($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.form, "name", $event.target.value)
                     },
                   },
-                },
-                [
-                  _vm._v("\n                    Nosūtīt\n                    "),
-                  _c("ArrowRight"),
-                ],
-                1
-              ),
-            ]),
+                }),
+                _vm._v(" "),
+                _vm.errors
+                  ? _c(
+                      "div",
+                      _vm._l(_vm.errors.name, function (error) {
+                        return _c("div", { staticClass: "error" }, [
+                          _vm._v(
+                            "\n                        " +
+                              _vm._s(error) +
+                              "\n                    "
+                          ),
+                        ])
+                      }),
+                      0
+                    )
+                  : _vm._e(),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-12 col-sm-6 col-md-4 position-relative" },
+              [
+                _c(
+                  "label",
+                  { staticClass: "form-label", attrs: { for: "email" } },
+                  [_vm._v("E-pasta adrese")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.email,
+                      expression: "form.email",
+                    },
+                  ],
+                  staticClass: "form-control",
+                  class: _vm.errors && _vm.errors.email ? "has-error" : null,
+                  attrs: {
+                    type: "email",
+                    id: "email",
+                    placeholder: "janis.berzins@gmail.com",
+                  },
+                  domProps: { value: _vm.form.email },
+                  on: {
+                    keyup: function ($event) {
+                      return _vm.resetError("email")
+                    },
+                    input: function ($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.form, "email", $event.target.value)
+                    },
+                  },
+                }),
+                _vm._v(" "),
+                _vm.errors
+                  ? _c(
+                      "div",
+                      _vm._l(_vm.errors.email, function (error) {
+                        return _c("div", { staticClass: "error" }, [
+                          _vm._v(
+                            "\n                        " +
+                              _vm._s(error) +
+                              "\n                    "
+                          ),
+                        ])
+                      }),
+                      0
+                    )
+                  : _vm._e(),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "cta-container col-12 col-sm-6 col-md-2" },
+              [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-primary btn-with-icon w-100 d-flex justify-content-center align-items-center",
+                    on: {
+                      click: function ($event) {
+                        $event.preventDefault()
+                        return _vm.subscribe.apply(null, arguments)
+                      },
+                    },
+                  },
+                  [
+                    _vm._v(
+                      "\n                    Nosūtīt\n                    "
+                    ),
+                    _c("ArrowRight"),
+                  ],
+                  1
+                ),
+              ]
+            ),
           ]
         ),
         _vm._v(" "),

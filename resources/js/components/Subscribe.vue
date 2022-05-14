@@ -2,8 +2,8 @@
     <div class="subscribe container-fluid bg-white">
         <div class="container-fluid container-md">
             <h2>Pieteikties konkursam!</h2>
-            <form class="row flex-column flex-md-row align-items-md-end">
-                <div class="col-12 col-md-4">
+            <form class="row flex-column flex-sm-row align-items-md-end justify-content-center justify-content-md-start">
+                <div class="col-12 col-sm-6 col-md-4 position-relative">
                     <label for="name" class="form-label">Vārds, uzvārds</label>
                     <input v-model="form.name" @keyup="resetError('name')" type="text" class="form-control" :class="errors && errors.name ? 'has-error' : null" id="name" placeholder="Jānis Bērziņš">
                     <div v-if="errors">
@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 position-relative">
                     <label for="email" class="form-label">E-pasta adrese</label>
                     <input v-model="form.email" @keyup="resetError('email')" type="email" class="form-control" :class="errors && errors.email ? 'has-error' : null" id="email" placeholder="janis.berzins@gmail.com">
                     <div v-if="errors">
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cta-container col-12 col-md-2">
+                <div class="cta-container col-12 col-sm-6 col-md-2">
                     <button @click.prevent="subscribe"
                         class="btn btn-primary btn-with-icon w-100 d-flex justify-content-center align-items-center">
                         Nosūtīt

@@ -77,35 +77,70 @@
     }
 }
 
-@include media-breakpoint-up(md) {
-    .offer .terms {
-        color: $light-grey;
-        font-weight: 400;
-        opacity: .5;
-    }
-
-    .offer-info {
-        width: 40%;
+@include media-breakpoint-up(sm) {
+    .offer .offer-info {
+        width: 85%;
     }
 
     .offer-banner {
-        padding: 2.1875rem 4.875rem 3rem 4.3125rem;
-        margin-bottom: 2.25rem;
+        .movies .movie-poster {
+            width: auto;
+            height: 12.5rem;
 
-        .movies {
+            &:nth-child(2) {
+                margin-right: 0;
+            }
 
-            .movie-poster {
-                width: auto;
-                height: 12.5rem;
-
-                &:not(:last-child) {
-                    margin-right: .75rem;
-                }
+            &:first-child,
+            &:nth-child(3) {
+                margin-right: .75rem;
             }
         }
 
         .price-container {
             margin-bottom: 0;
         }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .terms {
+        color: $light-grey;
+        font-weight: 400;
+        opacity: .5;
+    }
+
+    .offer-banner {
+        padding: 2.1875rem 4.875rem 3rem 4.3125rem;
+        margin-bottom: 2.25rem;
+
+        .movies .movie-poster {
+            width: auto;
+            height: 12.5rem;
+        }
+    }
+}
+
+@media (min-width: 864px) {
+    .offer-banner .movies .movie-poster {
+        width: auto;
+        height: 12.5rem;
+
+        &:nth-child(2),
+        &:nth-child(4) {
+            margin-right: .75rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .offer .offer-info {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1029px) {
+    .offer-banner .movies .movie-poster:last-child {
+        margin-right: 0;
     }
 }

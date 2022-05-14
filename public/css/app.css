@@ -11358,7 +11358,7 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
 .hero h2, .hero .h2 {
   margin-bottom: 1.75rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .hero {
     background: url("/images/banner-desktop.png") no-repeat center top;
     min-height: unset;
@@ -11503,15 +11503,30 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   margin-right: 0.5625rem;
 }
 
+@media (min-width: 576px) {
+  .offer .offer-info {
+    width: 85%;
+  }
+
+  .offer-banner .movies .movie-poster {
+    width: auto;
+    height: 12.5rem;
+  }
+  .offer-banner .movies .movie-poster:nth-child(2) {
+    margin-right: 0;
+  }
+  .offer-banner .movies .movie-poster:first-child, .offer-banner .movies .movie-poster:nth-child(3) {
+    margin-right: 0.75rem;
+  }
+  .offer-banner .price-container {
+    margin-bottom: 0;
+  }
+}
 @media (min-width: 768px) {
-  .offer .terms {
+  .terms {
     color: #F6F6F6;
     font-weight: 400;
     opacity: 0.5;
-  }
-
-  .offer-info {
-    width: 40%;
   }
 
   .offer-banner {
@@ -11522,11 +11537,24 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
     width: auto;
     height: 12.5rem;
   }
-  .offer-banner .movies .movie-poster:not(:last-child) {
+}
+@media (min-width: 864px) {
+  .offer-banner .movies .movie-poster {
+    width: auto;
+    height: 12.5rem;
+  }
+  .offer-banner .movies .movie-poster:nth-child(2), .offer-banner .movies .movie-poster:nth-child(4) {
     margin-right: 0.75rem;
   }
-  .offer-banner .price-container {
-    margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .offer .offer-info {
+    width: 45%;
+  }
+}
+@media (min-width: 1029px) {
+  .offer-banner .movies .movie-poster:last-child {
+    margin-right: 0;
   }
 }
 .subscribe {
@@ -11558,8 +11586,14 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
 .subscribe .form-control#name {
   margin-bottom: 1.8125rem;
 }
+.subscribe .form-control#name + div .error {
+  bottom: 0;
+}
 .subscribe .form-control#email {
   margin-bottom: 2.5625rem;
+}
+.subscribe .form-control#email + div .error {
+  bottom: 0.75rem;
 }
 .subscribe .btn {
   height: 3.5rem;

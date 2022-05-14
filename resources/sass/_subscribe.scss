@@ -23,10 +23,18 @@
 
         &#name {
             margin-bottom: 1.8125rem;
+
+            + div .error {
+                bottom: 0;
+            }
         }
 
         &#email {
             margin-bottom: 2.5625rem;
+
+            + div .error {
+                bottom: .75rem;
+            }
         }
     }
 

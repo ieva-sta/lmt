@@ -10,7 +10,7 @@
         margin-bottom: 1.75rem;
     }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
         background: url('/images/banner-desktop.png') no-repeat center top;
         min-height: unset;
         height: 25rem;

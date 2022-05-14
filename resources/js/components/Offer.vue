@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="offer-banner d-flex flex-column flex-md-row">
+                <div class="offer-banner d-flex flex-column flex-sm-row">
                     <div class="offer-info">
                         <h3 class="text-center">LMT Viedtelevīzija + HBO filmas un seriāli</h3>
                         <div class="d-flex justify-content-center">
@@ -33,11 +33,11 @@
                         </div>
                     </div>
 
-                    <div class="movies d-flex w-100 align-items-center justify-content-md-end">
-                        <img src="images/movies/1.png" class="movie-poster img-fluid" alt="">
-                        <img src="images/movies/2.png" class="movie-poster img-fluid" alt="">
-                        <img src="images/movies/3.png" class="movie-poster img-fluid" alt="">
-                        <img src="images/movies/4.png" class="movie-poster img-fluid d-none d-md-block" alt="">
+                    <div class="movies d-flex w-100 align-items-center justify-content-md-end flex-sm-wrap">
+                        <img src="images/movies/1.png" class="movie-poster img-fluid" alt="HBO filma">
+                        <img src="images/movies/2.png" class="movie-poster img-fluid" alt="HBO filma">
+                        <img src="images/movies/3.png" class="movie-poster img-fluid" alt="HBO filma">
+                        <img src="images/movies/4.png" class="movie-poster img-fluid d-none d-md-block" alt="HBO filma">
                     </div>
                 </div>
                 <h4 class="terms d-none d-md-block">Akcija 29.11.2019. Piedāvājums attiecas uz noteiktām preču kategorijām. Piedāvājums neattiecas uz citu akciju precēm.</h4>
@@ -45,9 +45,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: 'Offer'
-}
-</script>
