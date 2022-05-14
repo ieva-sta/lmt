@@ -5300,7 +5300,62 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'Counter'
+  name: 'Counter',
+  data: function data() {
+    return {
+      timer: null,
+      startTime: 0
+    };
+  },
+  methods: {
+    startTimer: function startTimer() {
+      var _this = this;
+
+      this.timer = setInterval(function () {
+        return _this.countdown();
+      }, 1000);
+    },
+    padTime: function padTime(time) {
+      return (time < 10 ? '0' : '') + time;
+    },
+    countdown: function countdown() {
+      if (this.startTime >= 1) {
+        this.startTime--;
+      } else {
+        this.startTime = 0;
+        this.resetTimer();
+      }
+    },
+    resetTimer: function resetTimer() {
+      this.totalTime = 25 * 60;
+      clearInterval(this.timer);
+      this.timer = null;
+    }
+  },
+  computed: {
+    days: function days() {
+      var days = Math.floor(this.startTime / (3600 * 24));
+      return this.padTime(days);
+    },
+    hours: function hours() {
+      var hours = Math.floor(this.startTime / 3600 - this.days * 24);
+      return this.padTime(hours);
+    },
+    minutes: function minutes() {
+      var minutes = Math.floor(this.startTime / 60) - this.hours * 60 - this.days * 24 * 60;
+      return this.padTime(minutes);
+    },
+    seconds: function seconds() {
+      var seconds = Math.floor(this.startTime - (this.minutes * 60 + this.hours * 3600 + this.days * 24 * 60 * 60));
+      return this.padTime(seconds);
+    }
+  },
+  mounted: function mounted() {
+    var deadline = new Date(2022, 4, 31);
+    var now = new Date();
+    this.startTime = (deadline.getTime() - now.getTime()) / 1000;
+    this.startTimer();
+  }
 });
 
 /***/ }),
@@ -28515,60 +28570,62 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "counter container-fluid container px-3" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c(
+        "div",
+        { staticClass: "col-12 col-md-5 d-flex justify-content-between" },
+        [
+          _c("div", { staticClass: "days" }, [
+            _c("h3", [_vm._v(_vm._s(_vm.days))]),
+            _vm._v(" "),
+            _c("span", [_vm._v("dienas")]),
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "hours w-100 d-flex justify-content-around" },
+            [
+              _c("div", [
+                _c("h3", [_vm._v(_vm._s(_vm.hours))]),
+                _vm._v(" "),
+                _c("span", [_vm._v("stundas")]),
+              ]),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._v(" "),
+              _c("div", [
+                _c("h3", [_vm._v(_vm._s(_vm.minutes))]),
+                _vm._v(" "),
+                _c("span", [_vm._v("minūtes")]),
+              ]),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _c("div", [
+                _c("h3", [_vm._v(_vm._s(_vm.seconds))]),
+                _vm._v(" "),
+                _c("span", [_vm._v("sekundes")]),
+              ]),
+            ]
+          ),
+        ]
+      ),
+    ]),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "counter container-fluid container px-3" },
-      [
-        _c("div", { staticClass: "row justify-content-center" }, [
-          _c(
-            "div",
-            { staticClass: "col-12 col-md-5 d-flex justify-content-between" },
-            [
-              _c("div", { staticClass: "days" }, [
-                _c("h3", [_vm._v("20")]),
-                _vm._v(" "),
-                _c("span", [_vm._v("dienas")]),
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "hours w-100 d-flex justify-content-around" },
-                [
-                  _c("div", [
-                    _c("h3", [_vm._v("14")]),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("stundas")]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [_c("h3", [_vm._v(":")])]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("h3", [_vm._v("02")]),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("minūtes")]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [_c("h3", [_vm._v(":")])]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("h3", [_vm._v("48")]),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("sekundes")]),
-                  ]),
-                ]
-              ),
-            ]
-          ),
-        ]),
-      ]
-    )
+    return _c("div", [_c("h3", [_vm._v(":")])])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("h3", [_vm._v(":")])])
   },
 ]
 render._withStripped = true
