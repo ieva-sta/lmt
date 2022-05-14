@@ -1,5 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/fonts/Geometria-Narrow.ttf": "/fonts/Geometria-Narrow.ttf"
+    "/fonts/Geometria-Narrow.ttf": "/fonts/Geometria-Narrow.ttf",
+    "/fonts/Geometria-Narrow.woff": "/fonts/Geometria-Narrow.woff",
+    "/fonts/Geometria-NarrowBold.woff": "/fonts/Geometria-NarrowBold.woff"
 }

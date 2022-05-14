@@ -29156,12 +29156,23 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "cta-container col-12 col-md-2" }, [
-              _c("button", { staticClass: "btn btn-primary w-100" }, [
-                _vm._v("\n                    Nosūtīt\n                    "),
-                _c("img", {
-                  attrs: { src: "images/icons/arrow-right.svg", alt: "" },
-                }),
-              ]),
+              _c(
+                "button",
+                {
+                  staticClass:
+                    "btn btn-primary w-100 d-flex justify-content-center align-items-center",
+                },
+                [
+                  _vm._v("\n                    Nosūtīt\n                    "),
+                  _c("img", {
+                    staticClass: "ms-2",
+                    attrs: {
+                      src: "images/icons/arrow-right.svg",
+                      alt: "Bulta pa labi",
+                    },
+                  }),
+                ]
+              ),
             ]),
           ]
         ),

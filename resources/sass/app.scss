@@ -16,9 +16,24 @@
 @import 'subscribe';
 @import 'footer';
 
+@font-face {
+    font-family: GeometriaNarrow;
+    src: url('/fonts/Geometria-Narrow.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: GeometriaNarrow;
+    src: url('/fonts/Geometria-NarrowBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
 body {
     background: $black;
     color: $white;
+    font-family: 'GeometriaNarrow';
 }
 
 .btn {
