@@ -26,7 +26,11 @@
     }
 
     @include media-breakpoint-up(md) {
-        margin-top: 3.375rem;
+        margin: 3.375rem auto 3.5rem;
+
+        h3 {
+            font-size: 3.125rem;
+        }
 
         .days {
             margin-right: 5.5rem;

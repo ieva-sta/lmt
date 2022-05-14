@@ -47,6 +47,21 @@
 
         .cta {
             height: 3rem;
+            padding-left: 1.25rem;
+            padding-right: 1.5625rem;
+
+            svg {
+                margin-left: .8125rem;
+
+                path {
+                    stroke: $primary;
+                    transition: stroke .25s ease;
+                }
+            }
+
+            &:hover svg path {
+                stroke: $white;
+            }
         }
 
         .movies {

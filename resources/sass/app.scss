@@ -45,3 +45,15 @@ body {
 .container-lg {
     max-width: 71.25rem;
 }
+
+.btn-with-icon {
+    svg {
+        transition: transform .3s ease;
+    }
+
+    &:hover {
+        svg {
+            transform: translateX(10px);
+        }
+    }
+}

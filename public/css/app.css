@@ -11399,7 +11399,10 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
 }
 @media (min-width: 768px) {
   .counter {
-    margin-top: 3.375rem;
+    margin: 3.375rem auto 3.5rem;
+  }
+  .counter h3, .counter .h3 {
+    font-size: 3.125rem;
   }
   .counter .days {
     margin-right: 5.5rem;
@@ -11435,14 +11438,8 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   background: #EA1336;
   transition: background 0.15s;
 }
-.device-list .device.see-more img {
-  transition: transform 0.3s ease;
-}
 .device-list .device.see-more:hover {
   background: #C8102E;
-}
-.device-list .device.see-more:hover img {
-  transform: translateX(10px);
 }
 .device-list .device.see-more h4, .device-list .device.see-more .h4 {
   margin-right: 2rem;
@@ -11486,6 +11483,18 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
 }
 .offer-banner .cta {
   height: 3rem;
+  padding-left: 1.25rem;
+  padding-right: 1.5625rem;
+}
+.offer-banner .cta svg {
+  margin-left: 0.8125rem;
+}
+.offer-banner .cta svg path {
+  stroke: #C8102E;
+  transition: stroke 0.25s ease;
+}
+.offer-banner .cta:hover svg path {
+  stroke: #fff;
 }
 .offer-banner .movies .movie-poster {
   width: calc((100% - 1.125rem) / 3);
@@ -11556,6 +11565,9 @@ nav.navbar .navbar-collapse .nav-item .nav-link img {
   height: 3.5rem;
   width: 100%;
 }
+.subscribe .btn svg {
+  margin-left: 0.6875rem;
+}
 
 @media (min-width: 768px) {
   .subscribe {
@@ -11606,4 +11618,11 @@ body {
 .container-md,
 .container-lg {
   max-width: 71.25rem;
+}
+
+.btn-with-icon svg {
+  transition: transform 0.3s ease;
+}
+.btn-with-icon:hover svg {
+  transform: translateX(10px);
 }

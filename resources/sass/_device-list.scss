@@ -31,16 +31,8 @@
             background: $primary-light;
             transition: background .15s;
 
-            img {
-                transition: transform .3s ease;
-            }
-
             &:hover {
                 background: $primary;
-
-                img {
-                    transform: translateX(10px);
-                }
             }
 
             h4 {

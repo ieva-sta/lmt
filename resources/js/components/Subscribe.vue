@@ -12,9 +12,9 @@
                     <input type="email" class="form-control" id="email" placeholder="janis.berzins@gmail.com">
                 </div>
                 <div class="cta-container col-12 col-md-2">
-                    <button class="btn btn-primary w-100 d-flex justify-content-center align-items-center">
+                    <button class="btn btn-primary btn-with-icon w-100 d-flex justify-content-center align-items-center">
                         Nosūtīt
-                        <img src="images/icons/arrow-right.svg" class="ms-2" alt="Bulta pa labi">
+                        <ArrowRight></ArrowRight>
                     </button>
                 </div>
             </form>

@@ -19,6 +19,7 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+Vue.component('ArrowRight', require('./components/ArrowRight.vue').default);
 Vue.component('Navigation', require('./components/Navigation.vue').default);
 Vue.component('Hero', require('./components/Hero.vue').default);
 Vue.component('Counter', require('./components/Counter.vue').default);

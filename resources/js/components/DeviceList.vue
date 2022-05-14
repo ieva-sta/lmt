@@ -14,9 +14,9 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="device see-more d-flex justify-content-center align-items-center">
+                <div class="device see-more btn-with-icon d-flex justify-content-center align-items-center">
                     <h4>Visas iekārtas</h4>
-                    <img src="images/icons/arrow-right.svg" alt="Bulta pa labi">
+                    <ArrowRight></ArrowRight>
                 </div>
             </div>
         </div>

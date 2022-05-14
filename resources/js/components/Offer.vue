@@ -24,9 +24,9 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <button class="cta btn btn-outline-primary d-flex align-items-center">
+                                    <button class="cta btn btn-outline-primary btn-with-icon d-flex align-items-center">
                                         Vairāk
-                                        <img src="images/icons/arrow-right-red.svg" class="ms-2" alt="">
+                                        <ArrowRight></ArrowRight>
                                     </button>
                                 </div>
                             </div>

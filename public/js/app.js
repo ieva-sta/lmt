@@ -5585,6 +5585,7 @@ window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+Vue.component('ArrowRight', (__webpack_require__(/*! ./components/ArrowRight.vue */ "./resources/js/components/ArrowRight.vue")["default"]));
 Vue.component('Navigation', (__webpack_require__(/*! ./components/Navigation.vue */ "./resources/js/components/Navigation.vue")["default"]));
 Vue.component('Hero', (__webpack_require__(/*! ./components/Hero.vue */ "./resources/js/components/Hero.vue")["default"]));
 Vue.component('Counter', (__webpack_require__(/*! ./components/Counter.vue */ "./resources/js/components/Counter.vue")["default"]));
@@ -28086,6 +28087,43 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./resources/js/components/ArrowRight.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/ArrowRight.vue ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ArrowRight_vue_vue_type_template_id_094fb284___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ArrowRight.vue?vue&type=template&id=094fb284& */ "./resources/js/components/ArrowRight.vue?vue&type=template&id=094fb284&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _ArrowRight_vue_vue_type_template_id_094fb284___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ArrowRight_vue_vue_type_template_id_094fb284___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ArrowRight.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/Counter.vue":
 /*!*********************************************!*\
   !*** ./resources/js/components/Counter.vue ***!
@@ -28435,6 +28473,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ArrowRight.vue?vue&type=template&id=094fb284&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/ArrowRight.vue?vue&type=template&id=094fb284& ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArrowRight_vue_vue_type_template_id_094fb284___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArrowRight_vue_vue_type_template_id_094fb284___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ArrowRight_vue_vue_type_template_id_094fb284___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ArrowRight.vue?vue&type=template&id=094fb284& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ArrowRight.vue?vue&type=template&id=094fb284&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Counter.vue?vue&type=template&id=68e92161&":
 /*!****************************************************************************!*\
   !*** ./resources/js/components/Counter.vue?vue&type=template&id=68e92161& ***!
@@ -28554,6 +28609,61 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ArrowRight.vue?vue&type=template&id=094fb284&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ArrowRight.vue?vue&type=template&id=094fb284& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "svg",
+    {
+      attrs: {
+        width: "25",
+        height: "24",
+        viewBox: "0 0 25 24",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg",
+      },
+    },
+    [
+      _c("path", {
+        attrs: {
+          d: "M5.5 12H19.5",
+          stroke: "white",
+          "stroke-linecap": "round",
+          "stroke-linejoin": "round",
+        },
+      }),
+      _vm._v(" "),
+      _c("path", {
+        attrs: {
+          d: "M12.5 5L19.5 12L12.5 19",
+          stroke: "white",
+          "stroke-linecap": "round",
+          "stroke-linejoin": "round",
+        },
+      }),
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Counter.vue?vue&type=template&id=68e92161&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Counter.vue?vue&type=template&id=68e92161& ***!
@@ -28574,7 +28684,7 @@ var render = function () {
     _c("div", { staticClass: "row justify-content-center" }, [
       _c(
         "div",
-        { staticClass: "col-12 col-md-5 d-flex justify-content-between" },
+        { staticClass: "col-12 col-md-6 d-flex justify-content-between" },
         [
           _c("div", { staticClass: "days" }, [
             _c("h3", [_vm._v(_vm._s(_vm.days))]),
@@ -28728,38 +28838,27 @@ var render = function () {
           )
         }),
         _vm._v(" "),
-        _vm._m(0),
+        _c("div", { staticClass: "col-12 col-sm-6 col-md-4 col-lg-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "device see-more btn-with-icon d-flex justify-content-center align-items-center",
+            },
+            [
+              _c("h4", [_vm._v("Visas iekārtas")]),
+              _vm._v(" "),
+              _c("ArrowRight"),
+            ],
+            1
+          ),
+        ]),
       ],
       2
     ),
   ])
 }
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-12 col-sm-6 col-md-4 col-lg-3" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "device see-more d-flex justify-content-center align-items-center",
-        },
-        [
-          _c("h4", [_vm._v("Visas iekārtas")]),
-          _vm._v(" "),
-          _c("img", {
-            attrs: {
-              src: "images/icons/arrow-right.svg",
-              alt: "Bulta pa labi",
-            },
-          }),
-        ]
-      ),
-    ])
-  },
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -28961,127 +29060,137 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "offer container-fluid container" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col" }, [
+        _c(
+          "div",
+          { staticClass: "offer-banner d-flex flex-column flex-md-row" },
+          [
+            _c("div", { staticClass: "offer-info" }, [
+              _c("h3", { staticClass: "text-center" }, [
+                _vm._v("LMT Viedtelevīzija + HBO filmas un seriāli"),
+              ]),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _c("div", { staticClass: "px-2" }, [
+                _c("p", [_vm._v("Iepriekš 24,99€/mēn")]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "price-container d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _vm._m(2),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "cta btn btn-outline-primary btn-with-icon d-flex align-items-center",
+                        },
+                        [
+                          _vm._v(
+                            "\n                                    Vairāk\n                                    "
+                          ),
+                          _c("ArrowRight"),
+                        ],
+                        1
+                      ),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _vm._m(3),
+          ]
+        ),
+        _vm._v(" "),
+        _c("h4", { staticClass: "terms d-none d-md-block" }, [
+          _vm._v(
+            "Akcija 29.11.2019. Piedāvājums attiecas uz noteiktām preču kategorijām. Piedāvājums neattiecas uz citu akciju precēm."
+          ),
+        ]),
+      ]),
+    ]),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "offer container-fluid container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [
-          _c("h2", { staticClass: "text-center text-md-start" }, [
-            _vm._v("Īpašs piedāvājums tikai piektdien!"),
-          ]),
-        ]),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col" }, [
-          _c(
-            "div",
-            { staticClass: "offer-banner d-flex flex-column flex-md-row" },
-            [
-              _c("div", { staticClass: "offer-info" }, [
-                _c("h3", { staticClass: "text-center" }, [
-                  _vm._v("LMT Viedtelevīzija + HBO filmas un seriāli"),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "d-flex justify-content-center" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "images/viedtelevizija.png",
-                      alt: "LMT viedtelevīzija",
-                    },
-                  }),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "px-2" }, [
-                  _c("p", [_vm._v("Iepriekš 24,99€/mēn")]),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "price-container d-flex justify-content-between align-items-center",
-                    },
-                    [
-                      _c("div", { staticClass: "price d-flex" }, [
-                        _c("h2", [_vm._v("19")]),
-                        _vm._v(" "),
-                        _c("div", [
-                          _c("h4", [_vm._v("98")]),
-                          _vm._v(" "),
-                          _c("p", [_vm._v("€/mēn.*")]),
-                        ]),
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "button",
-                          {
-                            staticClass:
-                              "cta btn btn-outline-primary d-flex align-items-center",
-                          },
-                          [
-                            _vm._v(
-                              "\n                                    Vairāk\n                                    "
-                            ),
-                            _c("img", {
-                              staticClass: "ms-2",
-                              attrs: {
-                                src: "images/icons/arrow-right-red.svg",
-                                alt: "",
-                              },
-                            }),
-                          ]
-                        ),
-                      ]),
-                    ]
-                  ),
-                ]),
-              ]),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "movies d-flex w-100 align-items-center justify-content-md-end",
-                },
-                [
-                  _c("img", {
-                    staticClass: "movie-poster img-fluid",
-                    attrs: { src: "images/movies/1.png", alt: "" },
-                  }),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "movie-poster img-fluid",
-                    attrs: { src: "images/movies/2.png", alt: "" },
-                  }),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "movie-poster img-fluid",
-                    attrs: { src: "images/movies/3.png", alt: "" },
-                  }),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "movie-poster img-fluid d-none d-md-block",
-                    attrs: { src: "images/movies/4.png", alt: "" },
-                  }),
-                ]
-              ),
-            ]
-          ),
-          _vm._v(" "),
-          _c("h4", { staticClass: "terms d-none d-md-block" }, [
-            _vm._v(
-              "Akcija 29.11.2019. Piedāvājums attiecas uz noteiktām preču kategorijām. Piedāvājums neattiecas uz citu akciju precēm."
-            ),
-          ]),
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col" }, [
+        _c("h2", { staticClass: "text-center text-md-start" }, [
+          _vm._v("Īpašs piedāvājums tikai piektdien!"),
         ]),
       ]),
     ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-flex justify-content-center" }, [
+      _c("img", {
+        attrs: { src: "images/viedtelevizija.png", alt: "LMT viedtelevīzija" },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "price d-flex" }, [
+      _c("h2", [_vm._v("19")]),
+      _vm._v(" "),
+      _c("div", [
+        _c("h4", [_vm._v("98")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("€/mēn.*")]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "movies d-flex w-100 align-items-center justify-content-md-end",
+      },
+      [
+        _c("img", {
+          staticClass: "movie-poster img-fluid",
+          attrs: { src: "images/movies/1.png", alt: "" },
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "movie-poster img-fluid",
+          attrs: { src: "images/movies/2.png", alt: "" },
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "movie-poster img-fluid",
+          attrs: { src: "images/movies/3.png", alt: "" },
+        }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "movie-poster img-fluid d-none d-md-block",
+          attrs: { src: "images/movies/4.png", alt: "" },
+        }),
+      ]
+    )
   },
 ]
 render._withStripped = true
@@ -29106,77 +29215,70 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "subscribe container-fluid bg-white" }, [
+    _c("div", { staticClass: "container-fluid container-md" }, [
+      _c("h2", [_vm._v("Pieteikties konkursam!")]),
+      _vm._v(" "),
+      _c(
+        "form",
+        { staticClass: "row flex-column flex-md-row align-items-md-end" },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "cta-container col-12 col-md-2" }, [
+            _c(
+              "button",
+              {
+                staticClass:
+                  "btn btn-primary btn-with-icon w-100 d-flex justify-content-center align-items-center",
+              },
+              [
+                _vm._v("\n                    Nosūtīt\n                    "),
+                _c("ArrowRight"),
+              ],
+              1
+            ),
+          ]),
+        ]
+      ),
+    ]),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "subscribe container-fluid bg-white" }, [
-      _c("div", { staticClass: "container-fluid container-md" }, [
-        _c("h2", [_vm._v("Pieteikties konkursam!")]),
-        _vm._v(" "),
-        _c(
-          "form",
-          { staticClass: "row flex-column flex-md-row align-items-md-end" },
-          [
-            _c("div", { staticClass: "col-12 col-md-4" }, [
-              _c(
-                "label",
-                { staticClass: "form-label", attrs: { for: "name" } },
-                [_vm._v("Vārds, uzvārds")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                staticClass: "form-control",
-                attrs: {
-                  type: "text",
-                  id: "name",
-                  placeholder: "Jānis Bērziņš",
-                },
-              }),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 col-md-4" }, [
-              _c(
-                "label",
-                { staticClass: "form-label", attrs: { for: "email" } },
-                [_vm._v("E-pasta adrese")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                staticClass: "form-control",
-                attrs: {
-                  type: "email",
-                  id: "email",
-                  placeholder: "janis.berzins@gmail.com",
-                },
-              }),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "cta-container col-12 col-md-2" }, [
-              _c(
-                "button",
-                {
-                  staticClass:
-                    "btn btn-primary w-100 d-flex justify-content-center align-items-center",
-                },
-                [
-                  _vm._v("\n                    Nosūtīt\n                    "),
-                  _c("img", {
-                    staticClass: "ms-2",
-                    attrs: {
-                      src: "images/icons/arrow-right.svg",
-                      alt: "Bulta pa labi",
-                    },
-                  }),
-                ]
-              ),
-            ]),
-          ]
-        ),
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("label", { staticClass: "form-label", attrs: { for: "name" } }, [
+        _vm._v("Vārds, uzvārds"),
       ]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { type: "text", id: "name", placeholder: "Jānis Bērziņš" },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("label", { staticClass: "form-label", attrs: { for: "email" } }, [
+        _vm._v("E-pasta adrese"),
+      ]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control",
+        attrs: {
+          type: "email",
+          id: "email",
+          placeholder: "janis.berzins@gmail.com",
+        },
+      }),
     ])
   },
 ]
