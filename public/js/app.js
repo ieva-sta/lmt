@@ -5330,6 +5330,11 @@ __webpack_require__.r(__webpack_exports__);
       this.totalTime = 25 * 60;
       clearInterval(this.timer);
       this.timer = null;
+    },
+    setDeadline: function setDeadline() {
+      var deadline = new Date(2022, 4, 31);
+      var now = new Date();
+      this.startTime = (deadline.getTime() - now.getTime()) / 1000;
     }
   },
   computed: {
@@ -5351,9 +5356,7 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    var deadline = new Date(2022, 4, 31);
-    var now = new Date();
-    this.startTime = (deadline.getTime() - now.getTime()) / 1000;
+    this.setDeadline();
     this.startTimer();
   }
 });
@@ -5519,7 +5522,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     subscribe: function subscribe() {
       var self = this;
-      axios.post('/api/subscribe', this.form).then(function (response) {
+      axios.post('/api/subscriptions', this.form).then(function (response) {
         self.message = response.data.message;
         self.form.name = '';
         self.form.email = '';

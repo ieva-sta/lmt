@@ -60,6 +60,11 @@ export default {
             clearInterval(this.timer);
             this.timer = null;
         },
+        setDeadline() {
+            let deadline = new Date(2022, 4, 31);
+            let now = new Date();
+            this.startTime = (deadline.getTime() - now.getTime()) / 1000;
+        }
     },
     computed: {
         days: function () {
@@ -80,9 +85,7 @@ export default {
         }
     },
     mounted() {
-        let deadline = new Date(2022, 4, 31);
-        let now = new Date();
-        this.startTime = (deadline.getTime() - now.getTime()) / 1000;
+        this.setDeadline();
         this.startTimer();
     }
 }
