@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/subscriptions', [SubscriptionController::class, 'index']);
-Route::post('/subscribe', [SubscriptionController::class, 'store']);
+Route::post('/subscriptions', [SubscriptionController::class, 'store']);
