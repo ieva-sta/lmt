@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="d-md-none d-flex align-items-center">
-                    <img src="images/icons/account.svg" class="account-icon" alt="Ikona - mants konts">
+                    <img src="images/icons/account.svg" class="account-icon" alt="Mans konts">
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navigation">
@@ -24,7 +24,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <img src="images/icons/book.svg" alt="Meklēt">
+                            <img src="images/icons/book.svg" alt="Palīdzība">
                             <span>Palīdzība</span>
                         </a>
                     </li>
